@@ -7,6 +7,7 @@
 % Date                 :20211014
 % Version              :1
 % Usage                :octave> /path/El_Libro
+%Cada una de las páginas de un libro debe tener 600 centímetros cuadrados de área, con márgenes  de  dos centímetros a los  lados y tres centímetros  arriba y  abajo, encuentra las dimensiones de la página para que permita la mayor área impresa posible.
 
 % limpiar variables
 clear
@@ -32,6 +33,8 @@ disp('El valor de x (ancho de la pagina)es:');
 X= sqrt(400) 
 disp ('El ancho de la pagina impresa es: ');
 X - 4
+
+
 
 % Calcular el valo de y
 % sabemos que y =600/x
